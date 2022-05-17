@@ -1,0 +1,353 @@
+/*@font-face{
+    font-family:Roboto-Regular;
+    src:url("webfonts/Roboto-Regular/Roboto-Regular.ttf"),
+        url("webfonts/Roboto-Regular/Hind_Vadodara.woff"),
+        url("webfonts/Roboto-Regular/Roboto-Regular.woff2");
+}
+*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 16px;
+	line-height: 1.55;
+}
+
+body {
+	
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+a,h1,h2,h3,h4,h5,h6,button{
+	text-transform: capitalize;
+}
+#sec-1{
+	background-image: url(../Images/header-bg.jpg);
+	background-position: center;
+}
+#sec-1 .overlay{
+	background-color:rgba(6 6 6 / 83%);
+}
+#sec-1 .overlay nav{
+	padding: 15px 0;
+   }
+#sec-1 .overlay nav a{
+	   text-decoration: none;
+	   text-transform: uppercase;
+	   color:#fff ;
+	   padding: 0 15px;
+	   float: right;
+   }
+#sec-1 .overlay article{
+ float: left;
+ width: 50%;
+ color: #fff;
+ margin: 175px 0;
+}
+#sec-1 .overlay article>h3{
+	font-weight: 400;
+}
+#sec-1 .overlay article>h1{
+	font-size: 3.5rem;
+	font-weight: 600;
+	margin: 10px 0;
+}
+#sec-1 .overlay article p{
+ 	margin-bottom: 30px;
+}
+#sec-1 .overlay article a{
+	padding: 10px 30px;
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #F9B700;
+}
+#sec-1 .overlay form{
+	width: 40%;
+	float: right;
+	background-color:rgba(33 45 62 / 47%);
+	padding: 30px 30px;
+	border: solid 1px rgb(97, 97, 97);
+}
+#sec-1 .overlay form h2{
+	margin-bottom:20px;
+	color: #fff;
+}
+#sec-1 .overlay form select{
+	width: 47%;
+	padding: 10px;
+    margin: 0px 15px 10px 0px;
+    border-radius: 5px;
+	border: none;
+	color: #777;
+}
+#sec-1 .overlay form #cars{
+	width: 100%;
+}
+#sec-1 .overlay form input{
+	width: 48%;
+	padding: 10px;
+    margin: 10px 0;
+	border: none;
+    border-radius: 5px;
+	color: #777;
+}
+#sec-1 .overlay form .input{
+	width: 100%;
+}
+#sec-1 .overlay form button{
+	border: none;
+    border-radius: 5px;
+    color: #fff;
+	background-color: #F9B700;
+	padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+	font-size: 1.2rem;
+}
+
+#sec-2{
+
+}
+#sec-2 h2{
+ text-align: center;
+ margin: 20px 10px 10px 0;
+}
+#sec-2 h4{
+	text-align: center;
+	color: #dadae4;
+	margin-bottom:20px;
+}
+#sec-2 figure{
+	width: 100%;
+}
+
+#sec-2 figure figure{
+	float: left;
+    width: 29%;
+    margin: 23px;
+    padding: 20px;
+	border-radius: 5px;
+	background-color: #EDEDF7;
+}
+#sec-2 figure figure span>img{
+	float: left;
+}
+#sec-2 figure figure h3{
+	margin: -2px 0px 10px 10px;
+	color:#1C232D;
+	font-weight: 600;
+	float: left;
+}
+#sec-2 figure figure p{
+	color: #777;
+} 
+
+#sec-3{
+    margin-top: 40px;
+}
+#sec-3 img{
+    width: 49%;
+}
+#sec-3 aside{
+	float: right;
+	width: 46%;
+	margin-top:100px;
+   }
+#sec-3 aside h2{
+	
+}
+#sec-3 aside span{
+	
+}
+#sec-3 aside p{
+	 margin-bottom: 30px;
+	 color:#777;
+}
+#sec-3 aside a{
+	padding: 10px 30px;
+	background-color: #F9B700;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+
+#sec-4{
+    margin-top: 40px;
+}
+#sec-4 h1{
+	text-align: center;
+	margin: 20px 10px 10px 0;
+   }
+#sec-4 .container>p{
+	   text-align: center;
+	   color: #777;
+	   margin-bottom:20px;
+   }
+#sec-4 img{
+	margin-left: 40px;
+}
+#sec-4 aside{
+	float: left;
+	width: 46%;
+	margin-top: 100px;
+   }
+#sec-4 aside h2{
+	
+}
+#sec-4 aside h2>span{
+	color:#F9B700;
+    float: right;
+}
+#sec-4 aside h2 sub{
+	font-weight: 400;
+}
+#sec-4 aside p{
+	margin-bottom: 30px;
+	color:#777;
+}
+
+#sec-4 aside a{
+	padding: 10px 30px;
+	background-color: #050505;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.bollets{
+	width:95px;
+	display: block;
+    margin: 0 auto;
+}
+.bollets .bollet{
+	width: 10px;
+    height: 10px;
+    background-color: #F9B700;
+    float: left;
+    margin: 30px 10px;
+}
+
+#sec-5{
+	background-image: url(../Images/callaction-bg.jpg);
+	background-position: center center;
+	text-align: center;
+}
+#sec-5 .overlay{
+	background-color: rgba(8 7 30 / 75%);
+}
+#sec-5 .overlay article{
+	padding: 134px 0;
+	color: #fff;
+}
+#sec-5 .overlay article h1{
+	font-weight: 600;
+    font-size: 2.6rem;
+}
+#sec-5 .overlay article p{
+	margin-bottom: 30px;
+}
+#sec-5 .overlay article a{
+	padding: 10px 30px;
+	color:#F9B700;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: solid 1px #F9B700;
+	font-weight: 600;
+}
+
+#sec-6{
+
+}
+#sec-6 h1{
+	text-align: center;
+	margin-top: 30px;
+}
+#sec-6 .container>p{
+	text-align: center;
+	color: #777;
+}
+#sec-6 article{
+
+}
+#sec-6 article figure{
+	float: left;
+	width: 23%;
+    margin: 30px 11px;
+}
+#sec-6  article figcaption p{
+	color: #777;
+	margin-bottom: 10px;
+}
+#sec-6 article figcaption h4{
+	background-color: #000;
+    color: #fff;
+    padding: 2px 10px;
+    width: 40%;
+    font-size: 1rem;
+    font-weight: 300;
+	margin-bottom: 10px;
+}
+#sec-6 article figcaption h3{
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+
+#sec-6 article figure span{
+	color: #777;
+	margin: 0px 45px 0px 0px;
+}
+
+footer{
+	background-color:#04091D;
+	padding: 40px 0;
+}
+footer ul{
+	list-style-type: none;
+	float: left;
+	width: 20%;
+    margin: 30px 0px;
+}
+footer ul li{
+	color:#fff;
+	text-transform: capitalize;
+	margin: 10px 0;
+}
+footer ul li img{
+	margin: 0px 15px 0px -7px;
+}
+footer ul li a{
+	color:#777;
+	text-decoration: none;
+}
+footer ul li input{
+	padding: 7px 10px;
+	float: left;
+	border: none;
+}
+footer ul li button{
+	background-color: #F9B700;
+    float: left;
+    border: none;
+    padding: 7px;
+    margin-left: 0;
+	color: #fff;
+}
+footer p{
+	color: #777;
+	text-align: center;
+	margin-top: 20px;
+	font-size: .9rem;
+}
+
+
+.clearfix {clear: both;}
